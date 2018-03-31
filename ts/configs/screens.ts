@@ -1,17 +1,22 @@
-const tabs = {
+// Import
+import { Home, Example } from '../routes'
 
+// Screens
+const tabs = {
+  Home,
+  Example,
 }
 
 const pages = {
 
 }
 
-const modal = {
+const modals = {
 
 }
 
 export {
   tabs,
   pages,
-  modal,
+  modals,
 }
