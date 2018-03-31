@@ -8,7 +8,8 @@ class Home extends React.Component<any, any>
 {
   static navigationOptions = {
     // ...R.style.header,
-    headerTitle: '',
+    headerTitle: 'Home',
+    tabBarLabel: 'Home',
   }
 
   render()
@@ -24,7 +25,7 @@ class Home extends React.Component<any, any>
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'F5FCFF',
+    backgroundColor: '#F5FCFF',
   },
 })
 
