@@ -1,5 +1,5 @@
 // Import
-import { Home, Example } from '../routes'
+import { Example, Home } from '../routes'
 
 // Screens
 const tabs = {
@@ -7,13 +7,9 @@ const tabs = {
   Example,
 }
 
-const pages = {
+const pages = {}
 
-}
-
-const modals = {
-
-}
+const modals = {}
 
 export {
   tabs,
