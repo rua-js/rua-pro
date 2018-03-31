@@ -1,16 +1,8 @@
 // Third-party dependency
-import { BackHandler, Animated, Easing, Platform } from 'react-native'
-import {
-  StackNavigator,
-  TabNavigator,
-  TabBarBottom,
-  addNavigationHelpers,
-  NavigationActions,
-} from 'react-navigation'
-
+import { Animated, Easing, Platform } from 'react-native'
+import { addNavigationHelpers, NavigationActions, StackNavigator, TabBarBottom, TabNavigator, } from 'react-navigation'
 // Transition animation
 import CardStackStyleInterpolator from 'react-navigation/src/views/CardStack/CardStackStyleInterpolator'
-
 // Screens
 import { screens } from '../configs'
 
@@ -75,7 +67,8 @@ const AppNavigator = StackNavigator(
         easing: Easing.out(Easing.poly(4)),
         timing: Animated.timing,
       },
-      screenInterpolator: sceneProps => {
+      screenInterpolator: sceneProps =>
+      {
         const { layout, position, scene } = sceneProps
         const { index } = scene
 
