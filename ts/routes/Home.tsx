@@ -3,6 +3,7 @@ import { StyleSheet, View, Image, Button, Text } from 'react-native'
 import { connect } from 'react-redux'
 import { actions } from 'rua'
 // import { default as R } from '../../rua'
+import { Example1, Example2 } from '../components/Example'
 
 class Home extends React.Component<any, any>
 {
@@ -17,6 +18,8 @@ class Home extends React.Component<any, any>
     return (
       <View style={styles.container}>
         <Text>Here is home,</Text>
+        <Example1/>
+        <Example2/>
       </View>
     )
   }

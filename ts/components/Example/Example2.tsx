@@ -8,7 +8,7 @@ class Example2 extends React.Component<Props, never>
   {
     return (
       <View style={styles.container}>
-        <Text>Example2</Text>
+        <Text>Component: Example2</Text>
       </View>
     )
   }
